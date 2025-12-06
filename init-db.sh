@@ -23,11 +23,14 @@ echo "🚀 Starting database initialization..."
 # Note Service 데이터베이스
 create_database_if_not_exists "aklp_note"
 
-# Task Service 데이터베이스 (향후 추가)
+# Task Service 데이터베이스
 create_database_if_not_exists "aklp_task"
 
-# Agent Service 데이터베이스 (향후 추가)
+# Agent Service 데이터베이스
 create_database_if_not_exists "aklp_agent"
+
+# File Service 데이터베이스
+create_database_if_not_exists "aklp_file"
 
 echo ""
 echo "📊 Current databases:"
